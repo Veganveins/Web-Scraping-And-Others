@@ -27,12 +27,12 @@ browser.get(url) #navigate to the page
 username = browser.find_element_by_id("username") #username form field
 password = browser.find_element_by_id("password") #password form field
 
-# username.send_keys("danjplunkett@gmail.com")
+# username.send_keys("xxxxxxxxxx@gmail.com")
 # time.sleep(5)
-# password.send_keys("Jplunkett1!")
+# password.send_keys("supersecretpassword")
 # time.sleep(5)
-username.send_keys("waltz22r@mtholyoke.edu")
-password.send_keys("March151995")
+username.send_keys("your-nytimes-account-login-goes-here")
+password.send_keys("your-nytimes-account-password-goes-here")
 
 
 
