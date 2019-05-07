@@ -1,3 +1,24 @@
+'''
+As an avid crossword puzzler, I subscribed to the new york times in July of 2018 to gain access to the daily puzzles. As a 
+
+subscriber I also gain the benefit of keeping a historical log of my times for each mini puzzle I complete. I wondered how the 
+
+subscription had affected my overall mini times. My hypothesis was, after subscribing and therefore completing more daily puzzles,
+
+my overall "crossword IQ" if you will would go up, resulting in a faster average completion time. To test this hypothesis, I would
+
+need the data. So I built a hacky webscraper in Python to hit the nytimes crossword, login with my credentials, and pull the 
+
+times for each day a puzzle was completed. With the values stored in a Python list I could easily write them to a file for
+
+some exploratory EDA in R. As an added bonus, I hassled a few friends into giving me their login credentials so I could scrape
+
+their data as well and tell the story of who, truly, was the crossword puzzle champion.
+
+Yes, I realize I am a humongous nerd. Sorry.
+'''
+
+
 from selenium import webdriver
 from lxml import html
 from bs4 import BeautifulSoup
